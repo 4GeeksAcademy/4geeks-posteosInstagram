@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <title>Posteo de Instagram</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand text-dark" href="#">
+        <img src="https://cdn-icons-png.flaticon.com/512/3661/3661391.png" style="width: 2vh" alt="" />
+        Instagram</a>
+      <ul class="navbar-nav d-flex flex-row">
+        <li class="nav-item me-2">
+          <button type="button" style="width: 20vh" class="btn btn-success">
+            Create a new post
+          </button>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle bg-dark-gray rounded-circle p-2" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Settings_app_icon.png"
+              style="width: 2vh" alt="settings" />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accessibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid d-flex justify-content-center align-items-center imagenes" style="height: 6vh">
+    <ul class="nav" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active no-border" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+          type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+          <span class="material-symbols-outlined">
+            grid_on
+          </span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link no-border" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+          type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+          <span class="material-symbols-outlined">
+            grid_off
+          </span>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="tab-content container-fluid d-flex justify-content-center align-items-center" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="container">
+        <div class="row g-3">
+
+          <div class="col-4">
+            <img src="https://www.boleteriavip.com.ar/assets/images/rosariocentral/rosariocentral-estadio.jpg"
+              class="post-img" alt="" />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://i.ytimg.com/vi/AcOG7k03f5E/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgVyhPMA8=&rs=AOn4CLAbx3DkgJmvLizKmKOzhmAmBYHO-Q"
+              class="post-img" alt="" />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://i.ytimg.com/vi/nAvxCoxkjHA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA_stuzAWxObuofxVMloP1upL-xTQ"
+              class="post-img" alt="" />
+          </div>
+
+          <div class="col-4">
+            <img
+              src="https://imgs.elpais.com.uy/dims4/default/b3bf379/2147483647/strip/true/crop/3715x2554+8+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F84%2F6c%2Fbc19cd98457ea2bc75dc7280675f%2Fafp-34837nc-15908818.jpg"
+              class="post-img" alt="" />
+          </div>
+          <div class="col-4">
+            <img src="https://rosariocentral.com/wp-content/uploads/2023/12/GBhvFc2WYAAhrZH.jpeg" class="post-img"
+              alt="" />
+          </div>
+          <div class="col-4">
+            <img src="https://www.ole.com.ar/2025/07/08/MsohFhM0O_1290x760__1.jpg" class="post-img" alt="" />
+          </div>
+
+          <div class="col-4">
+            <img src="https://i0.wp.com/avellaneda24.com/wp-content/uploads/2025/05/angelito1.jpg?fit=720%2C480&ssl=1"
+              class="post-img" alt="" />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://tntsports.com.ar/__export/1752348513162/sites/tntsports/img/2025/07/12/rosario-central-godoy-cruz-angel-di-maria_-2-_version1752348511076.png_493127408.png"
+              class="post-img" alt="" />
+          </div>
+          <div class="col-4">
+            <img src="https://statics.eleconomista.com.ar/2025/07/686c32d5ee753.jpg" class="post-img" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-12">
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">20/07</span>
+              </div>
+              <img src="https://www.boleteriavip.com.ar/assets/images/rosariocentral/rosariocentral-estadio.jpg"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>2122 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Hinchada de Rosario Central 💛💙
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">05/05</span>
+              </div>
+              <img
+                src="https://i.ytimg.com/vi/AcOG7k03f5E/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgVyhPMA8=&rs=AOn4CLAbx3DkgJmvLizKmKOzhmAmBYHO-Q"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>2312 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Rosario Central vs NOB
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">28/04</span>
+              </div>
+              <img
+                src="https://i.ytimg.com/vi/nAvxCoxkjHA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA_stuzAWxObuofxVMloP1upL-xTQ"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>4321 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Rosario central, Santiago del estero
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">22/04</span>
+              </div>
+              <img
+                src="https://imgs.elpais.com.uy/dims4/default/b3bf379/2147483647/strip/true/crop/3715x2554+8+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F84%2F6c%2Fbc19cd98457ea2bc75dc7280675f%2Fafp-34837nc-15908818.jpg"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>22304 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Rosario Central CAMPEON 💛💙
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">14/04</span>
+              </div>
+              <img src="https://rosariocentral.com/wp-content/uploads/2023/12/GBhvFc2WYAAhrZH.jpeg"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>20234 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Campeones!
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">10/04</span>
+              </div>
+              <img src="https://www.ole.com.ar/2025/07/08/MsohFhM0O_1290x760__1.jpg" class="post-img card-img-top"
+                alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>2424 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Referentes 🫶🏼
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">09/03</span>
+              </div>
+              <img src="https://i0.wp.com/avellaneda24.com/wp-content/uploads/2025/05/angelito1.jpg?fit=720%2C480&ssl=1"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>202314 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Angelito Di Maria 🫶🏼
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">05/03</span>
+              </div>
+              <img
+                src="https://tntsports.com.ar/__export/1752348513162/sites/tntsports/img/2025/07/12/rosario-central-godoy-cruz-angel-di-maria_-2-_version1752348511076.png_493127408.png"
+                class="post-img card-img-top" alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>2314 Likes</strong></p>
+                <p class="card-text text-muted">
+                  ⚽️🏆
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 600px; margin: auto;">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <span><strong>Rosario Central</strong></span>
+                <span class="text-muted small">01/03</span>
+              </div>
+              <img src="https://statics.eleconomista.com.ar/2025/07/686c32d5ee753.jpg" class="post-img card-img-top"
+                alt="Estadio Rosario Central" />
+              <div class="card-body">
+                <p class="card-text mb-1"><strong>22314 Likes</strong></p>
+                <p class="card-text text-muted">
+                  Fideo 🫶🏼⚽️🏆
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

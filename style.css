@@ -1,0 +1,27 @@
+.post-img {
+    width: 100%;        
+    aspect-ratio: 1/1;  
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+  }
+.nav {
+  border-bottom: none !important;
+}
+
+.nav-link {
+  border: none !important;
+}
+
+.nav-link.active span {
+  color: #0d6efd; 
+}
+
+.nav-link span {
+  font-size: 24px;
+  color: black;
+}
+
+img{
+    cursor: pointer;
+}
